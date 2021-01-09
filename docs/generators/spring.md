@@ -66,6 +66,7 @@ These options may be applied as additional-properties (cli) or configOptions (pl
 |swaggerDocketConfig|Generate Spring OpenAPI Docket configuration class.| |false|
 |title|server title name or client service name| |OpenAPI Spring|
 |unhandledException|Declare operation methods to throw a generic exception and allow unhandled exceptions (useful for Spring `@ControllerAdvice` directives).| |false|
+|useApiIgnore|Enable ApiIgnore Springfox annotation| |true|
 |useBeanValidation|Use BeanValidation API annotations| |true|
 |useOptional|Use Optional container for optional parameters| |false|
 |useTags|use tags for creating interface and controller classnames| |false|
