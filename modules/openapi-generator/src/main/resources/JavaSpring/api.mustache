@@ -20,7 +20,9 @@ import org.springframework.http.ResponseEntity;
 {{#useBeanValidation}}
 import org.springframework.validation.annotation.Validated;
 {{/useBeanValidation}}
+{{#usePageable}}
 import org.springframework.data.domain.Pageable;
+{{/usePageable}}
 import org.springframework.web.bind.annotation.*;
 {{#jdk8-no-delegate}}
     {{^reactive}}

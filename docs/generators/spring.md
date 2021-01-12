@@ -69,6 +69,7 @@ These options may be applied as additional-properties (cli) or configOptions (pl
 |useApiIgnore|Enable ApiIgnore Springfox annotation| |true|
 |useBeanValidation|Use BeanValidation API annotations| |true|
 |useOptional|Use Optional container for optional parameters| |false|
+|usePageable|Import Spring Data Pageable| |true|
 |useTags|use tags for creating interface and controller classnames| |false|
 |virtualService|Generates the virtual service. For more details refer - https://github.com/elan-venture/virtualan/wiki| |false|
 |withXml|whether to include support for application/xml content type and include XML annotations in the model (works with libraries that provide support for JSON and XML)| |false|
